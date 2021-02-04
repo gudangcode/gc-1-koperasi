@@ -4,7 +4,7 @@ class root
 	function __construct()
 	{
 		mysql_connect('localhost','root','');
-		mysql_select_db('rinookta');
+		mysql_select_db('koperasi');
 
 	}
 	public function tambah($kode_user,$kode_petugas,$kode_p,$nama_petugas,$alamat_petugas,$telp,$jenis_kelamin,$u_entry,$tgl_entri)
@@ -34,4 +34,3 @@ class root
 			}
 	}
 }
-?>

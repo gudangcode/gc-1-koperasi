@@ -4,7 +4,7 @@ class root
 	function __construct()
 	{
 		mysql_connect('localhost','root','');
-		mysql_select_db('rinookta');
+		mysql_select_db('koperasi');
 	}
 	public function tambahpinjam($kode,$kode_jenis_pinjam,$nama_pinjaman,$lama_angsur,$maks_pinjam,$u_entry,$bunga,$c,$tgl_entri)
 	{
@@ -90,5 +90,3 @@ class root
 	}
 
 }
-
-?>
