@@ -1,3 +1,12 @@
+<!-- 
+Property of GudangCode.com
+Author : Nyoman Adi Yudana
+Github : https://github.com/gudangcode/
+Website : https://gudangcode.com
+contact : 081377843910
+Facebook : https://web.facebook.com/mahasiswacupu/
+-->
+
 <?php
 ini_set('display_errors', FALSE);
 $host	= "localhost";
